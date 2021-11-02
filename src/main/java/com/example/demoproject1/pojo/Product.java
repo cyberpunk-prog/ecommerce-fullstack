@@ -13,7 +13,7 @@ public class Product {
     private String productName;
     private String imgURL;
     private String details;
-    private double salary;
+    private double price;
 
     public String getProductName() {
         return productName;
@@ -39,12 +39,12 @@ public class Product {
         this.details = details;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getprice() {
+        return price;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setprice(double price) {
+        this.price = price;
     }
 
 
@@ -53,11 +53,11 @@ public class Product {
     public Product() {
     }
 
-    public Product(String productName, String managerproductName, String imgURL, double salary) {
+    public Product(String productName, String managerproductName, String imgURL, double price) {
         this.productName = productName;
         this.imgURL = managerproductName;
         this.imgURL = imgURL;
-        this.salary = salary;
+        this.price = price;
     }
 
 
@@ -68,7 +68,7 @@ public class Product {
                 "productName='" + productName + '\'' +
                 ", managerproductName='" + imgURL + '\'' +
                 ", designation='" + details + '\'' +
-                ", salary=" + salary +
+                ", price=" + price +
                 '}';
     }
 
