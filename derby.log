@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Nov 02 10:22:34 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017c-defd-e613-0000021547c0 
+on database directory memory:/home/suyash/IdeaProjects/EmployeeManagement-master/ec90a843-1ad4-4061-aec2-831f85cd7b7f with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7 
+Loaded from file:/home/suyash/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=16+36-2231
+user.dir=/home/suyash/IdeaProjects/EmployeeManagement-master
+os.name=Linux
+os.arch=amd64
+os.version=5.11.0-38-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
